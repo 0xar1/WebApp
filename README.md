@@ -24,3 +24,6 @@ EXPORT FLASK_APP=main.py
 ##for development purpose add EXPORT FLASK_DEBUG=TRUE
 flask run
 ```
+## Viewing The App
+
+Go to `http://127.0.0.1:5000`
