@@ -1,0 +1,4 @@
+create database app;
+use app;
+create table user;
+create table user(u_id int AUTO_INCREMENT PRIMARY KEY, mail VARCHAR(200) NOT NULL,password VARCHAR(200) NOT NULL, verified BOOLEAN NOT NULL,full_name VARCHAR(200) NOT NULL);
